@@ -1,9 +1,12 @@
 import { useContext } from "react";
-import { ThemeContext } from "../../ThemeProvider";
+import { ThemeContext } from "./ThemeProvider";
 import MovingComponent from "react-moving-text";
-
+import React, {useState} from 'react';
+import { useMediaQuery } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const { theme, changeTheme } = useContext(ThemeContext);
+
   return (
     <div className="navbar bg-primary rounded-box">
       <div className="navbar-start">
@@ -29,18 +32,21 @@ const Navbar = () => {
             data-theme="light"
             className="menu menu-l dropdown-content mt-4 z-[1] p-2 shadow rounded-box w-40 text-xl"
           >
-            <li>
-              <a href="#AboutMe">About</a>
+              <li>
+              <Link to="/">fasdfasdf</Link>
+            </li>
+            {/* <li>
+              <Link to="/AboutMe">About</Link>
             </li>
             <li>
-              <a href="#Portfolio">Portfolio</a>
+              <Link ="#Portfolio">Portfolio</a>
             </li>
             <li>
               <a href="#Contact">Contact</a>
             </li>
             <li>
               <a href="#Portfolio">Resume</a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
@@ -54,7 +60,7 @@ const Navbar = () => {
           iteration="3"
           fillMode="none"
         >
-          Liza Smirnov
+          Welcome
         </MovingComponent>
       </div>
       <div className="navbar-end">
