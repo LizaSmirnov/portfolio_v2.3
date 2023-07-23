@@ -12,8 +12,7 @@ const Layout = () => {
         <Helmet>
 <html lang="en" data-theme={theme} />
 </Helmet> 
-        <Navbar/>
-          
+        <Navbar/>  
           <Outlet />
           <Footer/>
         </>
