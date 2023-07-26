@@ -11,11 +11,11 @@ const Navbar = () => {
     <div class = "navabr bg-base-100">
   <div class="navbar">
     <div class="dropdown">
-      <label tabindex="0" class="btn btn-ghost btn-circle">
+      <Link to ="/" class="btn btn-ghost btn-circle">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-      </label>
+      </Link>
       <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-      <li><a><Link to="/AboutMe">About</Link></a></li>
+      <li><a><Link to="/AboutMe">More About Me</Link></a></li>
         <li><a><Link to="/Portfolio">Portfolio</Link></a></li>
         <li><a><Link to="/Resume">Resume</Link></a></li>
         <li><a><Link to="/Contact">Contact</Link></a></li>
