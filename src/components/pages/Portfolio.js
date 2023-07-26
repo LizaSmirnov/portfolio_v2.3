@@ -2,7 +2,7 @@
 const Portfolio= () => {
     return (
       <div className="portfolio" id="Portfolio">
-        <div class='card-item h-full'>
+        <div class='card-item h-full' style={{ display: 'flex', flexDirection: 'column' }}>
           <h1 className="card-title btn-outline btn-accent justify-center items-center text-4xl" style={{padding:'10px'}}>Portfolio</h1>
           <p class='portfolio sub-title bg-primary text-center'>Please scroll through the Projects</p>
       <div class="h-96 carousel carousel-vertical">
@@ -46,11 +46,19 @@ const Portfolio= () => {
               </div>
           </a>
         </div>
-        <div class="carousel-item h-1/2">
+        <div class="carousel-item h-full">
             <a target="_blank" rel="noopener" href="https://github.com/LizaSmirnov/ecommerce_backend/blob/main/README.md">
               <div class="image-container">
                   <img src="https://github.com/LizaSmirnov/portfolio_v2_react/assets/122588135/d521fe8e-4dab-4dab-8af0-beace969a78a" alt="picture of code" class="w-full"  style={{width: "3000px" }}/>
                   <div class="hover-text">Ecommerce Backend</div>
+              </div>
+          </a>
+        </div>
+        <div class="carousel-item h-full">
+            <a target="_blank" rel="noopener" href="https://grow-react-787be2a9ebf7.herokuapp.com/">
+              <div class="image-container">
+                  <img src="https://github.com/LizaSmirnov/portfolio_v2.1/assets/122588135/62c33346-ebbd-4801-9018-37181d22f36d" alt="picture of code" class="w-full"  style={{width: "3000px" }}/>
+                  <div class="hover-text">GROW (MERN React App)</div>
               </div>
           </a>
         </div>

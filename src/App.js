@@ -1,32 +1,28 @@
-import React, { useState, useEffect, useContext } from "react";
-import { Helmet } from "react-helmet";
+import React, { useContext } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Nodemailer from 'nodemailer';
+import Portfolio from "./components/pages/Portfolio";
+import Resume from "./components/pages/Resume";
+import Contact from "./components/pages/Contact";
+import AboutMe from "./components/pages/AboutMe";
+import Layout from "./components/Layout";
+import Home from "./components/pages/Home";
 
-import Navbar from "./components/Navbar/Navbar";
-import AboutMe from "./components/AboutMe/AboutMe";
-import Resume from "./components/Resume/Resume";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
 import "./App.css";
-import { ThemeContext } from "./ThemeProvider";
 
 const App = () => {
-const {theme} = useContext(ThemeContext);  
-
   return (
-    <>
-     <Helmet>
-     <html lang="en" data-theme={theme} />
-   </Helmet>
-    <Navbar />
-    <AboutMe />
-    <Portfolio />
-    <Resume />
-    <Contact />
-    <Footer />
-
- </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Resume" element={<Resume />} />
+          <Route path="/Contact" element={<Contact />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 };
 

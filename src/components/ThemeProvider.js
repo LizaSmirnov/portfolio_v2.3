@@ -1,5 +1,7 @@
 import { createContext, useState } from "react";
 
+import React from 'react';
+
 export const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
@@ -10,8 +12,10 @@ export const ThemeProvider = ({ children }) => {
   };
 
   return (
+
     <ThemeContext.Provider value={{ theme, changeTheme }}>
       {children}
     </ThemeContext.Provider>
+  
   );
 };

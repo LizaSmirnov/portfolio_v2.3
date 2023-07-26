@@ -60,4 +60,12 @@ p {
   .highlighted {
     background-color: yellow;
     font-weight: bold;
+  } 
+
+   @media only screen and (max-width: 900px) {
+    .div {
+      display: flex;
+      flex-direction: column; 
+    }
   }
+   
