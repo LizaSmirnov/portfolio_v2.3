@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Home.css'
+
 
 
 
@@ -9,7 +9,7 @@ const Home = () => {
   <div class="text-center hero-content">
 
     <div>Thank you for checking out my page! Here is a short section highlighting my skills</div>
-    <div className={styles.skillsHeaderBox}>
+    {/* <div className={styles.skillsHeaderBox}>
                 <h1 className={styles.skillsHeader}>Skills</h1>
                 <div className={styles.skillsBox}>
                   <img className={styles.svgContainer} icon="html5" alt="react"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link> 
@@ -44,7 +44,7 @@ const Home = () => {
                   <div className={styles.skillsBox}>
                   <img className={styles.svgContainer} icon="html5" alt="mongodb" />
                   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
-                  <i class="devicon-mongodb-plain-wordmark"></i>
+                  <i class="devicon-mongodb-plain-wordmark"></i> */}
                   {/* <p className={styles.skillsText}>MongoDB</p>
                   </div>
                   <div className={styles.skillsBox}>
@@ -68,8 +68,7 @@ const Home = () => {
                   <p className={styles.skillsText}>GitHub</p> */}
                   </div>
     </div>
-    </div>
-    </div>
+  
   )
 }
 

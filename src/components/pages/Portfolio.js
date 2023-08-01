@@ -1,19 +1,30 @@
-
+import React from "react";
+import "./Portfolio.css"
 const Portfolio= () => {
     return (
-      <div className="portfolio" id="Portfolio">
-        <div class='card-item h-full' style={{ display: 'flex', flexDirection: 'column' }}>
-          <h1 className="card-title btn-outline btn-accent justify-center items-center text-4xl" style={{padding:'10px'}}>Portfolio</h1>
-          <p class='portfolio sub-title bg-primary text-center'>Please scroll through the Projects</p>
-      <div class="h-96 carousel carousel-vertical">
-      <div class="carousel-item h-full">
-          <a target="_blank" rel="noopener" href="https://github.com/LizaSmirnov/professional_portfolio">
-              <div class="image-container">
-                  <img src="https://github.com/LizaSmirnov/professional_portfolio/assets/122588135/91dc9214-9f73-4e51-be8d-cd86076842db" alt="picture of a bad portfolio website" class="w-full" style={{width: "3000px" }} />
-                  <div class="hover-text">Professional Portfolio Version 1</div>
+        <div className="portfolio" id="Portfolio">
+        <div className="card-item h-full" style={{ display: 'flex', flexDirection: 'column' }}>
+          <h1 className="card-title btn-outline btn-accent justify-center items-center text-4xl" style={{ padding: '10px' }}>Portfolio</h1>
+          <p className="portfolio sub-title bg-primary text-center">Please scroll through the Projects</p>
+          <div className="h-96 carousel carousel-vertical">
+            <div className="carousel-item h-full">
+              <div className="image-container">
+                <img src="https://github.com/LizaSmirnov/professional_portfolio/assets/122588135/91dc9214-9f73-4e51-be8d-cd86076842db" alt="picture of a bad portfolio website" className="w-full" style={{ width: "3000px" }} />
+                <div className="hover-text">
+                  <div className="hover-content">
+                    <p>Professional Portfolio Version 1</p>
+                    <div className="buttons-container">
+                      <a target="_blank" rel="noopener" href="https://github.com/LizaSmirnov/professional_portfolio">
+                        <button className="hover-button">GitHub Repository</button>
+                      </a>
+                      <a target="_blank" rel="noopener" href="https://lizasmirnov.github.io/professional_portfolio/">
+                        <button className="hover-button">Launched Webpage</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </a>
-      </div> 
       <div class="carousel-item h-full">
         <a target="_blank" rel="noopener" href="https://github.com/LizaSmirnov/horiseon_refactor">
               <div class="image-container">

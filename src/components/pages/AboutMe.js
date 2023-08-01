@@ -6,7 +6,7 @@ const AboutMe = () => {
           borderRadius='full'
           boxSize='150px'
           src="https://user-images.githubusercontent.com/122588135/219527503-a46e0315-17dc-4654-920f-dc1a8409df5c.jpg"
-          alt="picture of liza smirnov"
+          alt="picture of liza smirnov in a black dress"
         />
       </figure>
       <div id="AboutMe" class="card-body">
