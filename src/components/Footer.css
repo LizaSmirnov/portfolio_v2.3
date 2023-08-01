@@ -1,0 +1,13 @@
+/* Add this CSS to your existing styles */
+html, body {
+    height: 100%;
+  }
+  
+  #Footer {
+    position: flex;
+    left: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  

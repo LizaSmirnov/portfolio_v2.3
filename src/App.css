@@ -1,29 +1,5 @@
 
 
-
-.carousel-item .image-container {
-    position: relative;
-    width: 100%;
-}
-
-
-.carousel-item .hover-text {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    font-size: large;
-    color: white;
-    padding: 80px;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.carousel-item:hover .hover-text {
-    opacity: 1;
-}
-
 h2 {
     font-size: 3rem;
   
@@ -66,6 +42,12 @@ p {
     .div {
       display: flex;
       flex-direction: column; 
+    } 
+    .footer {
+      display: flex;
+      flex-direction: column; 
     }
+
+    
   }
    
