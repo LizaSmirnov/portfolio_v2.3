@@ -6,8 +6,15 @@ const Home = () => {
     <div className="card bg-base-100">
       <div className="flex flex-col items-center">
         <div className="card-body">
-          <h1 className="card-title text-3xl text-accent">Skills</h1>
+          <h1 className="card-title text-5xl text-accent">Skills</h1>
         </div>
+        <div style={{ width: '60rem', height: '25rem', overflow: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center'  }}>
+        <p style={{ textAlign: 'center'}}>As a recent graduate from UC Berkeley's intensive Full-Stack Web Development Boot Camp, I have acquired a comprehensive skill set encompassing fundamental technologies such as JavaScript, HTML, CSS, MongoDB, Sequelize, Apollo React, and Bootstrap. My training has equipped me with the expertise to proficiently create dynamic websites from scratch.
+
+Throughout my educational journey, my accomplishments have been particularly emphasized in the realms of back-end integration and JavaScript development. I take great pride in my ability to seamlessly blend different components to achieve robust and efficient solutions.
+
+I invite you to explore my portfolio, where you can find a showcase of the projects I have worked on. Each project comes complete with links to its respective GitHub repository, allowing you to delve into the intricacies of my codebase. Additionally, you can experience the fully-launched applications, demonstrating their functionality in real-world scenarios.</p>
+</div>
         <div className="icon-row">
           <div className="icon-container">
             <svg
@@ -210,7 +217,6 @@ const Home = () => {
       </div>
     </div>
     </div>
-   
   );
 };
 
