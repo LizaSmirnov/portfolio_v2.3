@@ -29,7 +29,7 @@ I invite you to explore my portfolio, where you can find a showcase of the proje
               strokeLinecap="round"
               strokeLinejoin="round"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-react" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-react" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M6.306 8.711c-2.602 .723 -4.306 1.926 -4.306 3.289c0 2.21 4.477 4 10 4c.773 0 1.526 -.035 2.248 -.102"></path>
    <path d="M17.692 15.289c2.603 -.722 4.308 -1.926 4.308 -3.289c0 -2.21 -4.477 -4 -10 -4c-.773 0 -1.526 .035 -2.25 .102"></path>
@@ -56,7 +56,7 @@ I invite you to explore my portfolio, where you can find a showcase of the proje
               strokeLinecap="round"
               strokeLinejoin="round"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-graphql" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-graphql" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M5.308 7.265l5.385 -3.029"></path>
    <path d="M13.308 4.235l5.384 3.03"></path>
@@ -90,7 +90,7 @@ I invite you to explore my portfolio, where you can find a showcase of the proje
               strokeLinecap="round"
               strokeLinejoin="round"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-mongodb" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-mongodb" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M12 3v19"></path>
    <path d="M18 11.227c0 3.273 -1.812 4.77 -6 9.273c-4.188 -4.503 -6 -6 -6 -9.273c0 -4.454 3.071 -6.927 6 -9.227c2.929 2.3 6 4.773 6 9.227z"></path>
@@ -111,7 +111,7 @@ I invite you to explore my portfolio, where you can find a showcase of the proje
               strokeLinecap="round"
               strokeLinejoin="round"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-html" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-html" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M13 16v-8l2 5l2 -5v8"></path>
    <path d="M1 16v-8"></path>
@@ -137,7 +137,7 @@ I invite you to explore my portfolio, where you can find a showcase of the proje
               strokeLinecap="round"
               strokeLinejoin="round"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-mongodb" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-mongodb" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M12 3v19"></path>
    <path d="M18 11.227c0 3.273 -1.812 4.77 -6 9.273c-4.188 -4.503 -6 -6 -6 -9.273c0 -4.454 3.071 -6.927 6 -9.227c2.929 2.3 6 4.773 6 9.227z"></path>
@@ -158,7 +158,7 @@ I invite you to explore my portfolio, where you can find a showcase of the proje
               strokeLinecap="round"
               strokeLinejoin="round"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-html" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-html" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M13 16v-8l2 5l2 -5v8"></path>
    <path d="M1 16v-8"></path>
@@ -184,7 +184,7 @@ I invite you to explore my portfolio, where you can find a showcase of the proje
               strokeLinecap="round"
               strokeLinejoin="round"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-css3" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-css3" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z"></path>
    <path d="M8.5 8h7l-4.5 4h4l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5"></path>
@@ -205,7 +205,7 @@ I invite you to explore my portfolio, where you can find a showcase of the proje
               strokeLinecap="round"
               strokeLinejoin="round"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-javascript" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-javascript" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z"></path>
    <path d="M7.5 8h3v8l-2 -1"></path>

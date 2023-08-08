@@ -14,7 +14,7 @@ const DownloadButton = () => {
   
   
     return (
-      <button class="btn btn-outline btn-primary max-w-xs" onClick={handleDownload}>
+      <button className="btn btn-outline btn-primary max-w-xs" onClick={handleDownload}>
         Download 
       </button>
     );

@@ -100,7 +100,7 @@ function Contact() {
       <div>
       <button type='submit' className='contactButtons'>Send Message</button>
         <div>
-          <div className='messageSuccessMsgBox' class='alert alert-success'>{success && "message sent"}</div>
+          <div className='messageSuccessMsgBox'   >{success && "message sent"}</div>
         </div> </div> 
     </form>
     </div>
