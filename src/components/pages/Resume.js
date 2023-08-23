@@ -89,7 +89,7 @@ const Resume = () => {
         <div className="mockup-phone">
   <div className="camera"></div> 
   <div className="display">
-    <div className="artboard artboard-demo phone-5 text-xs flex justify-ceneter" style={{ whiteSpace: 'pre-line', fontSize: '12px', lineHeight: '12px', height: '800px', overflowY: 'auto' }}>{resumeContent}</div>
+    <div className="artboard artboard-demo phone-5 text-xs flex justify-ceneter" style={{ whiteSpace: 'pre-line', fontSize: '14px', lineHeight: '14px', height: '800px', overflowY: 'auto', paddingTop: '22px', paddingBottom: '22px', paddingLeft:'10px'  }}>{resumeContent}</div>
   </div>
 </div>
 
