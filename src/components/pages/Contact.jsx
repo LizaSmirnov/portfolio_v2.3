@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import './Contact.css';
 
 
 function Contact() {
+  const formRef = useRef(null);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -22,6 +23,8 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setSuccess(false)
+    const formData = new FormData(formRef.current);
+    formData.append("form-name", "contact");
     fetch('/',{
       method: 'POST',
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -57,7 +60,7 @@ function Contact() {
 
   return (
     <div className='card card-side bg-base-100 shadow-xl justify-center' id='Contact'>
-    <form onSubmit={handleSubmit}>
+    <form ref={formRef} onSubmit={handleSubmit}>
       <div>
       <h2 className="card-title text-accent justify-center text-2xl">Contact</h2>
         <h2 className="card-title btn-outline btn-accent justify-center text-xl">Get in touch</h2>
