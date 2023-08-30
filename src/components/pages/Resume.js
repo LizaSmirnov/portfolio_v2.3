@@ -14,7 +14,7 @@ const DownloadButton = () => {
   
   
     return (
-      <button class="btn btn-outline btn-primary max-w-xs" onClick={handleDownload}>
+      <button className="btn btn-outline btn-primary max-w-xs" onClick={handleDownload}>
         Download 
       </button>
     );
@@ -81,20 +81,20 @@ const DownloadButton = () => {
 
 const Resume = () => {
     return (
-      <div class="card" >
-      <div class="card card-item h-full card-side bg-base-100 justify-center" id="Resume">
-          <a class="card-title text-accent justify-center text-3xl" style={{padding: '10px'}}>My Resume</a>
+      <div className="card" >
+      <div className="card card-item h-full card-side bg-base-100 justify-center" id="Resume">
+          <a className="card-title text-accent justify-center text-3xl" style={{padding: '10px'}}>My Resume</a>
 
         </div>
-        <div class="mockup-phone">
-  <div class="camera"></div> 
-  <div class="display">
-    <div class="artboard artboard-demo phone-5 text-xs flex justify-ceneter" style={{ whiteSpace: 'pre-line', fontSize: '12px', lineHeight: '12px', height: '800px', overflowY: 'auto' }}>{resumeContent}</div>
+        <div className="mockup-phone">
+  <div className="camera"></div> 
+  <div className="display">
+    <div className="artboard artboard-demo phone-5 text-xs flex justify-ceneter" style={{ whiteSpace: 'pre-line', fontSize: '14px', lineHeight: '14px', height: '800px', overflowY: 'auto', paddingTop: '22px', paddingBottom: '22px', paddingLeft:'10px'  }}>{resumeContent}</div>
   </div>
 </div>
 
-<div class="card" style={{padding: '10px'}}>
-          <div class="card-actions justify-center">
+<div className="card" style={{padding: '10px'}}>
+          <div className="card-actions justify-center">
           
             <DownloadButton />
           </div>

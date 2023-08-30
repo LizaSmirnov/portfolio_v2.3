@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import './Contact.css';
 
 
 function Contact() {
+  const formRef = useRef(null);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -22,6 +23,8 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setSuccess(false)
+    const formData = new FormData(formRef.current);
+    formData.append("form-name", "contact");
     fetch('/',{
       method: 'POST',
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -56,16 +59,16 @@ function Contact() {
   };
 
   return (
-    <div class='card card-side bg-base-100 shadow-xl justify-center' id='Contact'>
-    <form onSubmit={handleSubmit}>
+    <div className='card card-side bg-base-100 shadow-xl justify-center' id='Contact'>
+    <form ref={formRef} onSubmit={handleSubmit}>
       <div>
-      <h2 class="card-title text-accent justify-center text-2xl">Contact</h2>
-        <h2 class="card-title btn-outline btn-accent justify-center text-xl">Get in touch</h2>
+      <h2 className="card-title text-accent justify-center text-2xl">Contact</h2>
+        <h2 className="card-title btn-outline btn-accent justify-center text-xl">Get in touch</h2>
         <input
           type="text"
           id="name"
           placeholder="Name" 
-          class="input input-bordered input-primary w-full max-w-xs"
+          className="input input-bordered input-primary w-full max-w-xs"
           onChange={(e) => setName(e.target.value)}
           onBlur={handleBlur}
           required value = {name}
@@ -77,7 +80,7 @@ function Contact() {
           type="email"
           id="email"
           placeholder="Email Address" 
-          class="input input-bordered input-primary w-full max-w-xs"
+          className="input input-bordered input-primary w-full max-w-xs"
           onChange={(e) => setEmail(e.target.value)}
           onBlur={handleBlur}
           verify={validateEmail}
@@ -89,7 +92,7 @@ function Contact() {
         <textarea
           id="message"
           placeholder="Message to me" 
-          class="input input-bordered input-primary w-full max-w-xs"
+          className="input input-bordered input-primary w-full max-w-xs"
           onChange={(e) => setMessage(e.target.value)}
           onBlur={handleBlur}
           required value = {message}
@@ -100,7 +103,7 @@ function Contact() {
       <div>
       <button type='submit' className='contactButtons'>Send Message</button>
         <div>
-          <div className='messageSuccessMsgBox' class='alert alert-success'>{success && "message sent"}</div>
+          <div className='messageSuccessMsgBox'   >{success && "message sent"}</div>
         </div> </div> 
     </form>
     </div>
