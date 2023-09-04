@@ -50,7 +50,7 @@ function Contact() {
 
   const validateEmail = (email) => {
     // Regular expression for email validation
-    const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+    const emailRegex = /^[\w-]+@([\w-]+\.)+[\w-]{2,4}$/;
     if (!emailRegex.test(email)) {
       setError('INVALID EMAIL ADDRESS.');
     } else {

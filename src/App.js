@@ -1,4 +1,3 @@
-import React, { useContext } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Nodemailer from 'nodemailer';
 import Portfolio from "./components/pages/Portfolio";
