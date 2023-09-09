@@ -83,7 +83,7 @@ const Resume = () => {
     return (
       <div className="card" >
       <div className="card card-item h-full card-side bg-base-100 justify-center" id="Resume">
-          <a className="card-title text-accent justify-center text-3xl" style={{padding: '10px'}}>My Resume</a>
+          <p className="card-title text-accent justify-center text-3xl" style={{padding: '10px'}}>My Resume</p>
 
         </div>
         <div className="mockup-phone">
