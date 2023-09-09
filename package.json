@@ -1,7 +1,8 @@
 {
+  "homepage": "http://lizasmirnov.github.io/portfolio_v2.3",
   "name": "portfolio_v2.3",
   "version": "0.1.0",
-  "homepage": "http://LizaSmirnov.github.io/portfolio_v2.3",
+
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
