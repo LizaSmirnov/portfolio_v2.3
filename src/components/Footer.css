@@ -4,10 +4,14 @@ html, body {
   }
   
   #Footer {
-    position: flex;
-    left: 0;
+    /* Set a fixed height for the footer (adjust this according to your design) */
+    height: 250px;
+  
+    /* Ensure the footer sticks to the bottom of the viewport */
+    position: fixed;
     bottom: 0;
-    left: 0;
-    right: 0;
+  
+    /* Full width */
+    width: 100%;
   }
   
