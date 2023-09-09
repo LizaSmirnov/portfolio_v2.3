@@ -1,9 +1,8 @@
-import React, { useEffect } from "react";
 import About from "./pages/About";
 import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-import { Switch } from "react-router-dom";
+
 
 export const index = ({currentPath}) => {
 useEffect(() => {
