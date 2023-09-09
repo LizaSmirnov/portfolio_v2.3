@@ -1,9 +1,13 @@
 /* Home.css */
-.card {
-    background-color: #fff;
+.home {
     border-radius: 10px;
-   
-    
+  }
+
+.home-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
   }
   
   .flex {

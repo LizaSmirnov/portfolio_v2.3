@@ -59,7 +59,7 @@ function Contact() {
   };
 
   return (
-    <div className='card card-side bg-base-100 shadow-xl justify-center' id='Contact'>
+    <div className='box shadow-xl justify-center' id='Contact'>
     <form ref={formRef} onSubmit={handleSubmit}>
       <div>
       <h2 className="card-title text-accent justify-center text-2xl">Contact</h2>

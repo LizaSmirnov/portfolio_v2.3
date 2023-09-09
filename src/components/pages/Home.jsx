@@ -3,10 +3,10 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="card bg-base-100">
+    <div className="home">
       <div className="flex flex-col items-center">
-        <div className="card-body">
-          <h1 className="card-title text-5xl text-accent">Skills</h1>
+        <div className="home-body">
+          <h1 className="home-title text-5xl text-accent">Skills</h1>
         </div>
         <div style={{ width: '60rem', height: '25rem', overflow: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center'  }}>
         <p style={{ textAlign: 'center'}}>As a recent graduate from UC Berkeley's intensive Full-Stack Web Development Boot Camp, I have acquired a comprehensive skill set encompassing fundamental technologies such as JavaScript, HTML, CSS, MongoDB, Sequelize, Apollo React, and Bootstrap. My training has equipped me with the expertise to proficiently create dynamic websites from scratch.
