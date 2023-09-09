@@ -1,3 +1,6 @@
+import React from "react";
+import "./Resume.css"
+
 const DownloadButton = () => {
     const handleDownload = () => {
       // Replace "link-to-your-google-docs-file" with the actual Google Docs link
@@ -93,7 +96,7 @@ const Resume = () => {
   </div>
 </div>
 
-<div className="card" style={{padding: '10px'}}>
+<div className="button" style={{padding: '10px'}}>
           <div className="card-actions justify-center">
           
             <DownloadButton />

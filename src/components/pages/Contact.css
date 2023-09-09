@@ -1,9 +1,45 @@
-/* .sendMessageButtonBox {
+/* Contact.css */
+.card {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-}
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .input-container {
+    margin-bottom: 16px;
+  }
+  
+  .error {
+    color: red;
+  }
 
-.messageSuccessMsgBox {
-    padding-top: 5px;
-} */
+  .contactButtons {
+    padding: 10px 20px;
+    border: 2px solid green; /* Green outline */
+    border-radius: 50px; /* Rounded corners for a round button */
+    background-color: transparent; /* Transparent background */
+    color: green; /* Green text color */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    justify-content: center;
+  }
+  
+  .contactButtons:hover {
+    background-color: green; /* Green background on hover */
+    color: white; /* White text color on hover */
+    border-color: transparent; /* Transparent border on hover */
+  }
+  
+  .messageSuccessMsgBox {
+    color: green;
+  }
+  

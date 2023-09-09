@@ -2,12 +2,13 @@ import { useContext } from "react";
 import { ThemeContext } from "./ThemeProvider";
 import MovingComponent from "react-moving-text";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
   const { theme, changeTheme } = useContext(ThemeContext);
 
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar">
       <div className="dropdown">
         <Link to="/" className="btn btn-ghost btn-circle">
           <svg
@@ -40,7 +41,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar text-accent felx justify-end text-6xl">
+      <div className="navbar-text">
         <MovingComponent
           type="popIn"
           duration="1000ms"
@@ -49,11 +50,9 @@ const Navbar = () => {
           timing="ease"
           iteration="3"
           fillMode="none"
-        >
-          Welcome
-        </MovingComponent>
+        >Welcome</MovingComponent>
       </div>
-      <div className="navbar flex display-end">
+      <div className="navbar-right">
         <label tabIndex="0" className="btn btn-ghost btn-circle avatar">
           <div className="w-10 rounded-full">
             <img src="https://user-images.githubusercontent.com/122588135/219527503-a46e0315-17dc-4654-920f-dc1a8409df5c.jpg" alt="avatar" />

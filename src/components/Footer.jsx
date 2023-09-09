@@ -1,20 +1,24 @@
-import React from "react";
+import React, {useContext} from "react";
 import "./Footer.css";
+import { ThemeContext } from "./ThemeProvider";
+
+
 
 const Footer = () => {
+  const { theme } = useContext(ThemeContext);
+
   return (
-    <footer
-      id="Footer"
-      className="footer footer-center p-10 bg-primary text-primary-content"
-    >
+    <footer id="Footer" className={`footer footer-center p-10 ${theme}`}>
       <div>
-        <svg
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
+        {/* <div className="moon-container ">
+          <svg
+            width="40"
+            height="60"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className="moon"
+          >
           <path
             fillRule="evenodd"
             clipRule="evenodd"
@@ -22,13 +26,14 @@ const Footer = () => {
             fill="currentColor"
           />
         </svg>
+        </div> */}
         <p className="font-bold">
           Thank you for visiting <br />
           Please see my links below for Linkden, Github, and Instagram
         </p>
       </div>
       <div>
-        <div className="grid grid-flow-col gap-4">
+        <div className="icons grid-flow-col gap-4">
           <a href='https://www.instagram.com/krasnienkov/'>
             <svg
               width="24"

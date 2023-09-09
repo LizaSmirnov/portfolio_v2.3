@@ -4,8 +4,9 @@ const Portfolio= () => {
     return (
         <div className="portfolio" id="Portfolio">
         <div className="card-item h-full" style={{ display: 'flex', flexDirection: 'column' }}>
-          <h1 className="card-title btn-outline btn-accent justify-center items-center text-4xl">Portfolio</h1>
-          <p className="portfolio sub-title bg-primary text-center">Please scroll through the Projects</p>
+          <h1 className="card-title btn-outline btn-accent justify-center items-center text-5xl">Portfolio</h1>
+          <p className="portfolio sub-title bg-secondary text-center">Please scroll through the Projects</p>
+          <div className="carousel-container">
           <div className="h-96 carousel carousel-vertical">
             <div className="carousel-item h-full">
               <div className="image-container">
@@ -118,6 +119,7 @@ const Portfolio= () => {
   </div>
 </div>
 
+</div>
 </div>
 </div>
 </div>
