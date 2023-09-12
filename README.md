@@ -1,4 +1,4 @@
-## Portfolio V2 React
+## Portfolio V2.3 React
 
 ## Technologies
 ![Technologies](https://img.shields.io/badge/-JavaScript-007396?logo=JavaScript&logoColor=white)
@@ -22,7 +22,7 @@ This app was created to present the second version of my professional portfolio,
 Please download the following on your command line "npm i". Please enter into your code editor and make sure all npm packages are installed by checking your package.json file. From there you will need to run "npm run start". Please make sure you are index.js when doing this. After that webpack should create the application and run it on your localhost:3000.
 
 or click on launched application!
-https://lizasmirnov.github.io/portfolio_v2_react
+[https://lizasmirnov.github.io/portfolio_v2_react](https://lizasmirnov.github.io/portfolio_v2.3/)
 
 ## Contribution
 This challenge was an assignment done for UC BERKLEY Boot Camp. 
