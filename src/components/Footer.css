@@ -53,8 +53,8 @@ p {
   margin: 0;
   padding: 0;
 }
-
-/* Your existing media query for smaller screens
+/* 
+Your existing media query for smaller screens */
 @media only screen and (max-width: 900px) {
   .div {
     display: flex;
@@ -64,4 +64,4 @@ p {
     display: flex;
     flex-direction: column; 
   }
-} */
+}
